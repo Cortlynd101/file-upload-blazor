@@ -12,7 +12,7 @@ jobs:
           docker build -t cort-file-upload-blazor .
           # run image
           docker run -d \
-            -p 9770:8181 \
+            -p 9770:8080 \
             --name cort-file-upload-blazor \
             cort-file-upload-blazor
           
