@@ -14,6 +14,6 @@ jobs:
           docker run -d \
             -p 9877:8181 \
             --name cort-file-upload-blazor \
-            file-upload-blazor
+            cort-file-upload-blazor
           
             echo "worked"
